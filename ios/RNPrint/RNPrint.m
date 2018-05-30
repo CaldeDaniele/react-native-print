@@ -127,7 +127,7 @@ RCT_EXPORT_METHOD(selectPrinter:(RCTPromiseResolveBlock)resolve
     
     if([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) { // iPad
         UIView *view = [[UIApplication sharedApplication] keyWindow].rootViewController.view;
-        [printPicker presentFromRect:view.frame inView:view animated:YES completionHandler:completionHandler];
+        [printPicker presentFromRect:CGRectMake(0, 0, 0, 0) inView:view animated:YES completionHandler:completionHandler];
     } else { // iPhone
         [printPicker presentAnimated:YES completionHandler:completionHandler];
     }
