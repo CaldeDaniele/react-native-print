@@ -121,6 +121,8 @@ RCT_EXPORT_METHOD(selectPrinter:(RCTPromiseResolveBlock)resolve
                                                  @"url" : _pickedPrinter.URL.absoluteString,
                                                  };
                 resolve(printerDetails);
+            } else {
+              resolve(NULL);
             }
         }
     };
