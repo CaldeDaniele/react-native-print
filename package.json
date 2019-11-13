@@ -12,11 +12,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "github:christopherdro/react-native-print"
+    "url": "github:CaldeDaniele/react-native-print"
   },
   "peerDependencies": {
     "react-native": ">=0.8.0 || 0.8.0-rc || 0.8.0-rc.2 || 0.9.0-rc || 0.10.1"
   },
-  "author": "Christopher Dro <casheghian@gmail.com> (http://chris.si)",
+  "author": "Daniele Calderazzo <daniele.calderazzo@stride-it.com> (https://stride-it.com/)",
   "license": "MIT"
 }
